@@ -36,19 +36,23 @@ img{
   }
 
 .img2{
-  height: 50%;
+  height: 300px;
   border-radius: 10%;
 }
+
+
+
 
 .centered {
   font-family: Magneto;
   color: white;
   font-size: 25px; 
   position: absolute;
-  top: 40%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 
 .mapouter{text-align:right;height:500px;width:600px;}
 #gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
