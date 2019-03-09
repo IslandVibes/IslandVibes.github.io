@@ -185,7 +185,7 @@ h1{
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 15px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -218,6 +218,15 @@ h1{
   clear: both;
 }
 
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
 /* Six columns side by side */
 .column {
   float: left;
@@ -233,3 +242,73 @@ h1{
 .demo:hover {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+/* Merchandise comming soon page */
+
+
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url("../img/comingsoon.jpg");
+  /* Full-screen */
+  height: 1000px;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+#demo {
+  margin: auto;
+  width: 40%;
+}
+
+h2{
+  color: #721c24;
+  font-family: Magneto;
+  font-size: 3rem;
+}
+
