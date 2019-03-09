@@ -129,4 +129,5 @@ img{
 .card{
   background-color: transparent;
   color: white;
+  border: 0px;
 }
